@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/77a6770754.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <img src="images/icon.png" alt="logo" width="100" height="100">
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <!-- <li><a href="#services"> Services</a></li> -->
+                    <li><a href="#portfolio">My Work</a></li>
+                    <!-- <li><a href="#contact"> Contacts</a></li> -->
+                    
+                </ul>
+                
+
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1> Hi, I'm <span>Shreyas</span> <br> from Hyderabad</h1>
+            </div>
+        </div>
+
+
+        <!-- --------------about---------------- -->
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\myimage.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate and dedicated 3rd-year undergraduate student pursuing a degree in Computer Science. With a keen interest in cutting-edge technologies and a strong foundation in programming, I am committed to making a positive impact in the world of technology.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Coding Languages</span> <br>Java,C,C++,Python,HTMLetc</li>
+                            <li><span>Web Development</span> <br>Web App Development using HTML,CSS and Java Script</li>
+                            <li><span>Frameworls/Libraries</span> <br>Tailwind,Pygame,Pandas,Numpy etc</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Dec 2021 - June 2025</span> <br>Bachelor of Engineering in Artificial Intelligence and Machine Learning at University College of Engineering, Osmania University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 
+    !--------------services---------------- -->
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desgin</h2>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos repellat rerum esse, ratione impedit obcaecati eveniet aut velit, aliquam, tempora non voluptatem officia nesciunt maxime corporis veniam. Odio, corporis possimus.</p>
+                <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Desgin</h2>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos repellat rerum esse, ratione impedit obcaecati eveniet aut velit, aliquam, tempora non voluptatem officia nesciunt maxime corporis veniam. Odio, corporis possimus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Desgin</h2>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos repellat rerum esse, ratione impedit obcaecati eveniet aut velit, aliquam, tempora non voluptatem officia nesciunt maxime corporis veniam. Odio, corporis possimus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </div> -->
+
+    <!-- -----------portfolio----------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images\IDE_screenshot.png" >
+                    <div class="layer">
+                        <h3>CodeStar-Online IDE</h3>
+                        <p>
+                            Created a dynamic web IDE (HTML, CSS, JavaScript) named CodeStar, featuring Monaco editor for seamless coding. Integrated Judge0 API for multi-language code execution.
+                        </p>
+                        <a href="https://github.com/SreenishSharma83/CodeStar_Online_IDE"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\virtual-assistants_image.png" >
+                    <div class="layer">
+                        <h3>AI Virtual Assistant (JarvisAI)</h3>
+                        <p>
+                            Demonstrated expertise in building conversational AI systems using Python and OpenAI API, enhancing user experiences through chatbots and virtual assistants.
+                        </p>
+                        <a href="https://github.com/ShreyasMittapalli/Jarvis-AI"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\imagegenerator.png" >
+                    <div class="layer">
+                        <h3>AI-ImageGenerator</h3>
+                        <p>
+                            Developed an AI-powered Image Generator utilizing the OpenAI API, seamlessly integrating it into a web application with HTML, CSS, and JavaScript.
+                        </p>
+                        <a href="https://github.com/ShreyasMittapalli/AI-ImageGenerator"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\chess-feature-image.jpg" >
+                    <div class="layer">
+                        <h3>Two Player Chess game</h3>
+                        <p>
+                            Developed a Python-based two-player chess game using Pygame, highlighting strong coding practices, an interactive user interface, and attention to detail for an engaging multiplayer experience.
+                        </p>
+                        <a href="https://github.com/ShreyasMittapalli/two_player_chess_game"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <a href="#" class="btn"> see more..</a>
+        </div>
+    </div>
+    <!-- <div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">
+                            Contact Me
+                        </h1>
+                        <p>
+                           
+                            <i class="fas fa-paper-plane"></i>
+                            contact@example.com
+                        </p>
+                        <p> <i class="fas fa-phone-square-alt"></i> 0123456789</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"> <i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"> <i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                            
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright © Kevin. Made with <i class="fas fa-heart"></i> by Easy Tutorial
+            </p>
+        </div>
+    </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabContents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+
+            for(tabcontent of tabContents){
+                tabcontent.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+            
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwBzqygjazizkNbY_pWnScYhmlO1lLzV_E8cOv2Et4rIrvVBxFhVm2du48qNx8jV4MhGg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> -->
+</body>
+
+</html>
